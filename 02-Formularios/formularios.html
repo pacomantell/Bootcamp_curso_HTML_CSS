@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <p>
+      Vamos a empezar a recopilar datos en nuestra pagina web mediante la
+      etiqueta form.
+    </p>
+    <!--los metodos pueden ser GET si se hace algo desde el propio navegador o POST si se envia algo a un server-->
+    <form action="resultados.html" method="GET">
+      <div>
+        <!--Usuario-->
+        <label for="nameuser">Nombre de usuario</label>
+
+        <!--Agregamos un input
+            -name me asigna un nombre al input
+            -id me asigna una variable al input
+            -required me dice que es obligatorio poner algo
+            -type me dice que tipo de dato se va a introducir en el input-->
+        <input type="text" name="nameuser" id="nameuser" required/>
+      </div>
+      <!--Añado un separador-->
+      <br>
+      <div>
+        <!--Contraseña-->
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pass" required/>
+      </div>
+      <br>
+      <div>
+        <!--Comentarios-->
+        <label for="comment">Comentarios</label>
+        <textarea name="comment" id="comment"></textarea>
+      </div>
+      <br>
+      <div>
+        <!--Edad-->
+        <label for="age">Edad</label>
+        <input type="number" name="edad" id="edad" min="0" max="100" step="0.5"/>
+      </div>
+      <br>
+      <div>
+        <!--Email-->
+        <label for="email">Email</label>
+        <input type="email" name="email", id="email"/>
+      </div>
+      <br>
+      <div>
+        <!--Fechas-->
+        <label for="datebirth">Fecha de nacimiento</label>
+        <input type="date" name="datebirth", id="datebirth"/>
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
