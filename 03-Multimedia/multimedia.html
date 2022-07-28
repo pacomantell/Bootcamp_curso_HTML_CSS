@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multimedia</title>
+    </head>
+    <body>
+        <div>
+            <h3>Imagenes</h3>
+        <!--src nos dice la imagen a renderizar y alt el texto que se muestra si no se renderiza-->
+        <img src="imagenes/Imagen1.png" alt="File not found" width="300" height="200"/>
+        </div>
+        <br>
+        <div>
+            <h3>Videos</h3>
+            <!--HTML 5 soporta tres codecs de video: webm, mp4 y ogg
+                -Autoplay hace que el video se reproduzca solo al cargar la pagina
+                - muted hace que se silencie por defecto
+                - loop hace que se vuelva a reproducir solo-->
+            <video widht="300" height="400" controls muted loop>
+                <source src="video_prueba.mp4" type="video/mp4"/>
+            </video>
+        </div>
+        <br>
+        <div>
+            <h3>Audios</h3>
+            <!--Los tres audios soportados son mp3, wav y ogg-->
+            <audio controls>
+                <source src="Bird_Therapist.mp3" type="audio/mp3"/>
+            </audio>
+        </div>
+        <br>
+        <div>
+            <h3>Fuentes externas</h3>
+            <img src="https://img.freepik.com/vector-gratis/logotipo-motocicleta-plana-vintage_23-2149450072.jpg?w=2000" alt="Logo Moto" width="300" height="300">
+        </div>
+    </body>
+</html>
