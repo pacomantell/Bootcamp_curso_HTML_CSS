@@ -1,0 +1,10 @@
+/*Importamos una fuente de google*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,700;1,300&display=swap');
+/* Vamos a decirle que todo el html emplee una fuente de texto*/
+html {
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    font-style: italic;
+}

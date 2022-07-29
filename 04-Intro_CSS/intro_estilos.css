@@ -1,0 +1,43 @@
+/*Podemos definir colores personalizados*/
+.color-hex {
+    color: #34A0A4;
+}
+
+.color-rgb {
+    color: rgb(100, 50, 300)
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.2);
+}
+
+#sec {
+    color: #4CC9F0;
+}
+
+/*Fondos*/
+.fondo {
+    background-color: #184E77;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF0fOWYZxjLVSHwgBxeEGJqrPr7CcDsn_O4MySeyRrhc2bsoA5hkJloxFwUWpN9XXZqck&usqp=CAU");
+    background-position: center center;
+}
+
+/*Tamaños*/
+.ancho {
+    background-color: #184E77;
+    width: 100px;
+}
+.alto {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+/*Bordes*/
+.card {
+    background-color: #34A0A4;
+    border-style: solid;
+    border-color: #184E77;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px;
+}

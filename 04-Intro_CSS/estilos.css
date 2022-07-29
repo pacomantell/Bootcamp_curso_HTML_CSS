@@ -1,0 +1,42 @@
+
+/*Aplicamos estilo a las etiquetas h1*/
+h1 {
+    color:rgb(59, 119, 59);
+}
+
+/*Aplicamos estilo a las etiquetas p*/
+p {
+    color:rgb(14, 54, 230);
+    font-size: 16pt;
+}
+
+/*Si queremos dar estilo a una etiqueta determinada empleamos los selectores*/
+/*para seleccionar por id se hace asi*/
+#primeranoticia {
+    color: brown;
+    font-size: 14pt;
+}
+
+#segundanoticia {
+    color: mediumorchid;
+}
+
+/*Para selectores de clase se procede de la siguiente forma*/
+.seccionoticias {
+    font-size: 25pt;
+    text-transform: uppercase;
+}
+
+/*Para aplicar un estilo a todos los elementos a la vez, a no ser que se les asigne uno en particular*/
+* {
+    color:indianred;
+}
+/*O para todos los elementos de una clase*/
+* .warning {
+    font-size: 35pt;
+}
+
+/*aplicamos un estilo a varias clases, etiquetas op id's*/
+.autor, .fecha, .loc, h1, #primeranoticia {
+    text-decoration: underline;
+}
