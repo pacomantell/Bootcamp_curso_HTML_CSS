@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+/*El hover se activa cuando el raton pasa por encima*/
+.hover:hover {
+    background-color: aliceblue;
+}
+
+.listado {
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+/*Si queremos hacer referencia a todos los p que sean primer elemento de otro*/
+p:first-child {
+    color: blueviolet;
+}
+
+/*Modificamos el color de los textos de enlace no visitado*/
+a:link {
+    color: blue;
+}
+/*Modificamos el color de los textos de enlace ya visitado*/
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+/*Tambien puedo modificar el color cuando hago el click*/
+a:active {
+    color: yellow;
+}

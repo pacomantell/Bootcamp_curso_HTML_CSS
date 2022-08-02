@@ -1,0 +1,25 @@
+h1 {
+    color: indianred;
+}
+
+p {
+    background-color: antiquewhite;
+}
+/*Las clases tiene mayor especificidad que las etiquetas, y los id mayor que las clases*/
+.parr {
+    background-color: aliceblue;
+}
+
+#parrafo {
+    background-color: rgb(253, 253, 253);
+}
+/*Las especificidades van en este orden*/
+/*(1,1,1)*/
+p #parrafo.parr {
+    color: rgb(0, 255, 0);
+}
+/*(1,1,0)*/
+/*(1,0,0)*/
+/*(0,1,0)*/
+/*(0,0,1)*/
+/*(0,0,0)*/

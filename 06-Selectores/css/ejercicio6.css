@@ -1,0 +1,19 @@
+.boton {
+    width: 300px;
+    height: 300px;
+}
+
+.boton::before {
+    content: 'Pasa por encima';
+    font-family: Arial;
+    font-size: xx-large;
+}
+
+.boton:hover {
+    background-color: green;
+    color: white;
+}
+
+.boton:hover::before {
+    content: '¡Hecho!';
+}
