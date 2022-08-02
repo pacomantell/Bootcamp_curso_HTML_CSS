@@ -1,0 +1,18 @@
+.img-princ {
+    width: 50vw;
+    opacity: 1;
+}
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img-gal {
+    width: 150px;
+    opacity: 0.3;
+}
+
+.img-gal:hover {
+    opacity: 1;
+    cursor: zoom-in;
+}

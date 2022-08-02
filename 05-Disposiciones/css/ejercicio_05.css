@@ -1,0 +1,13 @@
+.galery {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+.img-gal {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.img-gal:hover {
+    opacity: 1;
+    cursor: pointer;
+}

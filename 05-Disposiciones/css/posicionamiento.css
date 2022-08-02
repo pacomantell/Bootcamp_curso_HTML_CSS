@@ -1,0 +1,37 @@
+div {
+    border: 1px solid green;
+    padding: 5px;
+    margin: 5px
+}
+
+/*Posicionamiento relativo. Se posiciona en relacion a la posicion original*/
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/*En el posicionamiento fijo, se mantiene fija la posicion del elemento, sin solaparse con el resto de elementos presentes*/
+/*Es muy util para mostrar indices de pagina*/
+/*con z-index controlamos la capa en la que aparece. los fixed interesa que esten en la capa superior*/
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: aquamarine;
+    z-index: 10;
+}
+
+/*Posicionamiento absoluto, se mantiene fijo dentro de su elemento padre, en éste caso el body*/
+.abs {
+    position: absolute;
+    top: 0px;
+}
+
+/*Posicionamiento sticky*/
+.sticky {
+    position: sticky;
+    background-color: dimgray;
+    top: 0px;
+    z-index: 2;
+}

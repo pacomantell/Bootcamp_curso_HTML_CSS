@@ -1,0 +1,34 @@
+/*El display flex me posiciona todo lo que hay dentro de ese contenedor de manera ordenada*/
+/*Mediante justify establecemos la posicion de los contenedores dentro del flex*/
+/*Meiante flex-wrap elegimos si queremos mantener los tamaños de los elementos (wrap) o redimensionarlos si se cambia el tamaño de la ventana (non-wrap)*/
+/*Con flex-direction cambiamos la distribución segun el eje*/
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    height: 300px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.cont1 {
+    background-color: honeydew;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.cont2 {
+    background-color: honeydew;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.cont3 {
+    background-color: honeydew;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}

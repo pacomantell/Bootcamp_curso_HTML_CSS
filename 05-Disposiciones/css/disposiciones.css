@@ -1,0 +1,13 @@
+.div1, .div2 {
+    background-color: #CCB7AE;
+}
+
+.span1 {
+    background-color: #D6CFCB;
+}
+
+.span2 {
+    background-color: #D6CFCB;
+    /*con float controlo la posicion del span*/
+    float: right;
+}

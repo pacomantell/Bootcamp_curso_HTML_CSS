@@ -1,0 +1,35 @@
+.cont-hidd {
+    background-color: cadetblue;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.cont-scroll {
+    background-color: cadetblue;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    overflow: scroll;
+}
+
+.cont-visible {
+    background-color: cadetblue;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    overflow: visible;
+}
+
+.cont-auto {
+    background-color: cadetblue;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    overflow: auto;
+}
