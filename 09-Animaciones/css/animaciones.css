@@ -1,0 +1,55 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+/*Transiciones*/
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    transition: transform 1s ease-in-out 0.5s;
+}
+
+.padre:hover .hijo {
+    transform: translateX(100%);
+}
+
+/*Animaciones*/
+
+.father {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+.son {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+.father:hover .son {
+    animation: traslacion 1s infinite alternate;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: blue;
+        transform: translateX(0%);
+    }
+    25%{
+        background-color: black;
+        transform: translateX(100%);
+    }
+    50% {
+        background-color: aqua;
+        transform: translate(100%, 100%);
+    }
+    75% {
+        background-color: red;
+        transform: translate(0%, 100%);
+    }
+
+}
