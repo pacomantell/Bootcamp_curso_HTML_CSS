@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-width:995px) {
+    h1 {
+        color:green
+    }
+}
+
+@media (orientation: landscape) and (min-width: 576px) {
+    p {
+        color: darkgreen;
+    }
+}

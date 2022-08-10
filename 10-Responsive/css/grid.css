@@ -1,0 +1,25 @@
+.contenedor {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas: 'head head head' 'main main aside' 
+    'footer foote3r footer';
+}
+
+.item {
+    background-color: aquamarine;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: 0.1rem solid blue;
+}
+
+
+/*Podemos modificar la posicion de un elemento en el grid*/
+.item1 {
+    grid-column: 2/ span 2;
+}
+
+.item9 {
+    grid-area: 2 / 2 / 4 / 5;
+}

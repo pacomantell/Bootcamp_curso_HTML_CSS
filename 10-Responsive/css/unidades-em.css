@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.escenario {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.escenario1 {
+    font-size: 32px;
+}
+
+.escenario2 {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}
